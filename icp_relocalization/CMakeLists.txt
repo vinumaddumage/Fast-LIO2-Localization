@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project(icp_relocalization)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 add_compile_options(-Wextra -Wpedantic)
 SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g")
 set(CMAKE_BUILD_TYPE Release)
